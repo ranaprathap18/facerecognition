@@ -127,11 +127,6 @@ class RegistrationModule:
                                activebackground="#118ce1", font=('times', 15, 'bold'))
         quitWindow.place(x=650, y=510)
 
-        # link2 = tk.Label(
-        # self.window, text="Copyright©2020, Ineuron.ai", fg="blue", )
-        # link2.place(x=690, y=580)
-        # link2.pack()
-        # link2.bind("<Button-1>", lambda e: self.callback("http://ineuron.ai"))
         label = tk.Label(self.window)
 
         self.window.mainloop()
